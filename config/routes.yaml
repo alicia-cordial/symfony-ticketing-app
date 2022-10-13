@@ -1,0 +1,8 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+# config/routes.yaml
+about:
+  path: /about
+  controller: App\Controller\CoreController::about
